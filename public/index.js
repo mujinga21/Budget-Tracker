@@ -4,7 +4,7 @@ if('serviceWorker' in navigator) {
     .then((reg) => {
       console.log('Service worker registered.', reg);
     });
-  })
+  });
 }
 
 let transactions = [];
