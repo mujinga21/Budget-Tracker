@@ -11,7 +11,7 @@
   * [Test](#test)
   * [Question](#question)
   ## Installation
-  by following instructions in ReadMe
+  
   ## Usage
   to tell the user how to use the program
   ## License
