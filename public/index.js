@@ -24,7 +24,7 @@ fetch("/api/transaction")
 
 function populateTotal() {
   // reduce transaction amounts to a single total value
-  let total = transaction.reduce((total, t) => { //removed s
+  let total = transactions.reduce((total, t) => {
     return total + parseInt(t.value);
   }, 0);
 
@@ -113,7 +113,7 @@ function sendTransaction(isAdding) {
   }
 
   // add to beginning of current array of data
-  transaction.unshift(transaction); //changed transaction removed s 
+  transactions.unshift(transaction);
 
   // re-run logic to populate ui with new record
   populateChart();
